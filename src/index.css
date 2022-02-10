@@ -1,0 +1,76 @@
+* {
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+body {
+  height:100vh;
+  width:100%;
+  font-family:sans-serif;
+  position:relative;
+}
+nav {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  height:10vh;
+  padding:0.5rem;
+  background:#eee;
+}
+.nav-link a {
+  text-decoration: none;
+  color: #000;
+}
+.mobx-todo-app-title {
+  margin:1rem 0 1rem 0;
+  text-align:center;
+}
+.mobx-todo-input {
+  text-align:center;
+  margin: 0.5rem 0 0.5rem 0;
+}
+.inputEl {
+  padding: 7px 3px;
+  width:400px;
+  outline: none;
+}
+.btnEl {
+  padding:8px 20px;
+  margin-left:5px;
+  background: rgb(10, 151, 10);
+  color:#fff;
+  border-radius: 3px;
+  border:none;
+}
+.btnEl:hover {
+  background:rgb(4, 150, 4);
+}
+.removeEl {
+  padding:6px 20px;
+  margin-left:5px;
+  background: rgb(221, 20, 13);
+  color:#fff;
+  border-radius: 3px;
+  margin-left:10%;
+  border:none;
+}
+.removeEl:hover {
+  background:#ff0000;
+}
+.todo {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:30%;
+  margin-left:35%;
+}
+.notes-left {
+  margin:0.5rem 0 0.5rem 0;
+}
+ul {
+  list-style:none;
+}
+li {
+  margin:0.5rem 0 0.5rem 0;
+}
